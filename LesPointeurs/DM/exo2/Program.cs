@@ -69,7 +69,7 @@ namespace exo2
 
             public void Attack(string name, int damage, Boss* bossPointer)
             {
-                Console.WriteLine($"Le Player {name} a blessé le Boss de {damage}")
+                Console.WriteLine($"Le Player {name} a blessé le Boss de {damage}");
             }
         }
     }
