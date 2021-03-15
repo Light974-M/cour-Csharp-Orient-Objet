@@ -38,11 +38,13 @@ namespace DM
         }
 
         //surcharge retournant la masse total du vehicule.
-        
+
         protected override double TotalMass(double charge, int maxCharge)
         {
             return charge + maxCharge;
         }
+
+        //surcharge tostring().
 
         public override string ToString()
         {
